@@ -1,88 +1,33 @@
 * {
-    border: 0;
-    padding: 0;
+   margin: 0;
+   padding: 0;
    box-sizing: border-box;
+   font-family: "Roboto", sans-serif;
 }
 
-header {
-    padding: 16px 0 ;
-    font-family: "Caveat", cursive;
-    background-color: black;
-    color: rgb(255, 255, 255);
-
+body {
+    background-color: rgb(240, 240, 240);
 }
 
-header nav li{
-    display: inline;
-    margin-left: 16px;
-    font-size: 25px;
-}
-
-header nav li a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+h1{
+    font-family: "Roboto", sans-serif;
+    padding: 16px;
 }
 
 .container {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
+   max-width: 960px;
+   width: 100%;
+   margin: auto;
 }
 
-body{
-    background-color: rgb(231, 231, 231);
+footer {
+    padding: 16px 0;
 }
+form input{
 
-header .container  {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-section .container img{
-    height: 200px;
-}
-
-section .brands-list img {
-    height: 50px;
-}
-
-section .brands-list {
-    display: flex; 
-    margin-left: 8px;
-}
-
-form input, form textarea, form button {
-    display: block;
-    width: 320px;
-    margin-bottom: 8px;
-    padding: 8px;
-}
-
-form textarea {
-    resize: none;
 }
 
 form button {
-    color: #ffffff;
     cursor: pointer;
-    background-color: #000;
-}
-
-form button:hover {
-    background-color: #414141;
-}
-
-
-
-
-
-
-
-
-footer{
-    padding: 16px 0 ;
-    background-color: black;
-    color: aliceblue;
+    font-family: "Roboto", sans-serif;
 }
